@@ -4,6 +4,9 @@
       "path": "IntADCS"
     },
     {
+      "path": "IntADCS.Test"
+    },
+    {
       "path": ".AL-Go"
     }
   ],
