@@ -1,0 +1,16 @@
+{
+    "containerResultPath":  "",
+    "launchConfigName":  "Your own server",
+    "securePassword":  "",
+    "userName":  "",
+    "companyName":  "test2",
+    "testSuiteName":  "",
+    "vmUserName":  "",
+    "vmSecurePassword":  "",
+    "remoteContainerName":  "",
+    "dockerHost":  "",
+    "newPSSessionOptions":  "",
+    "testRunnerServiceUrl":  "http://adcs:7048/BC/ODataV4/TestRunner?company=test2\u0026tenant=default",
+    "codeCoveragePath":  ".//.altestrunner//codecoverage.json",
+    "culture":  "en-US"
+}
