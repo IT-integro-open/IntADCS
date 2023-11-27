@@ -1,0 +1,210 @@
+
+.ADCS-Container {
+    width: 100vw;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", "Segoe UI Web (West European)", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+    font-size: 12px;
+    overflow: hidden;
+}
+.ADCS-Navbar {
+    background-color: #F6F7F8;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+}
+.ADCS-ActionMenu-icon {
+    background-color: #00838F;
+    color: #ffffff;
+    border: none;
+    padding: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+    display: inline-block;
+}
+.ADCS-ActionMenu-icon span {
+    display: block;
+    width: 20px;
+    height: 2px;
+    background: #ffffff;
+    margin: 4px 0;
+}
+.ADCS-Menu {
+    display: none;
+    position: absolute;
+    top: 46px;
+    left: 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+.ADCS-Menu a {
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+    color: #000;
+}
+.ADCS-Menu a:hover {
+    background-color: #eee;
+}
+.ADCS-InputContainer {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+    align-items: center;
+}
+.ADCS-Input {
+    padding: 2px;
+    margin-right: 10px;
+    flex-grow: 1;
+    font-size: 16px;
+}
+.ADCS-NextButton {
+    background-color: #00838F;
+    color: #ffffff;
+    padding: 8px 8px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+}
+.ADCS-Content {
+    overflow: auto;
+    margin-top: 5px;
+    height: calc(100vh);
+}
+.ADCS-Table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+}
+.ADCS-Table-th {
+    border: 1px solid #ccc;
+    text-align: left;
+    pointer-events: none;
+    user-select: none;
+}
+.ADCS-Table-td {
+    border: 1px solid #ccc;
+    text-align: left;
+}
+.ADCS-Table-Activtd {
+    border: 5px solid red;
+    text-align: left;
+}
+.ADCS-Table-tbody-tr:hover {
+    box-shadow: 0 0 10px #aaa;
+    cursor: pointer;
+}
+.ADCS-Comment-Container {
+    overflow: auto;
+    margin-top: 5px;
+    background-color: #00ff00;
+    width: 100%;
+}
+.ADCS-Error-Container{
+    overflow: auto;
+    margin-top: 5px;
+    background-color: rgb(224, 18, 60);
+    width: 90%;
+}
+.ADCS-Error-Text {
+    color: #f3f5f4;
+    font-family: "Segoe UI", "Segoe UI Web (West European)", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+    font-size: 15px;
+    margin-left:  3px;
+    margin-right: 1px;
+}
+.ADCS-Comment-Text {
+    color: #000000;
+    font-family: "Segoe UI", "Segoe UI Web (West European)", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+    font-size: 15px;
+    margin-left:  3px;
+    margin-right: 1px;
+}
+.ADCS-FormHeader-Container {
+    margin-top: 5px;
+    width: 100%;
+}
+.ADCS-FormHeader-Text {
+    color: #000000;
+    font-family: "Segoe UI", "Segoe UI Web (West European)", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+    font-size: 20px;
+}
+.ADCS-FormField-Container {
+    margin-top: 5px;
+    width: 100%;
+}
+.ADCS-FormField-Description {
+    color: #000000;
+    font-family: "Segoe UI", "Segoe UI Web (West European)", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+}
+.ADCS-FormField-Value {
+    color: #000000;
+    font-family: "Segoe UI", "Segoe UI Web (West European)", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;  
+    font-size: 14px;
+}
+.ADCS-FormActiveField-Description {
+    color: #000000;
+    font-family: "Segoe UI", "Segoe UI Web (West European)", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+    font-weight: bold;
+    border: red solid 2px;
+    border-right-width: 1px;
+    font-size: 16px;
+}
+.ADCS-FormActiveField-Value {
+    color: #000000;
+    font-family: "Segoe UI", "Segoe UI Web (West European)", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;  
+    font-size: 16px;
+    border: red solid 2px;
+    border-left-width: 1px;
+}
+
+.ADCS-FormFooter-Container {
+    width: 100%;
+    margin-top: 5px;
+}
+.ADCS-FormFooter-Text {
+    color: #000000;
+    font-family: "Segoe UI", "Segoe UI Web (West European)", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+    font-size: 15px;
+}
+.ADCSMenuButton-container {
+    overflow: hidden;
+    position: relative;
+    width: 100%; 
+}
+.custom-ADCSMenuButton {
+    display: flex;
+    align-items: center;
+    background-color: #00838F; 
+    border: 1px solid #FFFFFF;
+    color: white;
+    text-align: left; 
+    text-decoration: none;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 4px;
+    height: 40px; 
+    width: 100%; 
+}
+.number-ADCSMenuButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #00383D; 
+    width: 50px;
+    height: 100%;
+}
+
+.text-ADCSMenuButton {
+   padding: 15px 30px;
+    display: flex;
+   align-items: center; 
+}
+.custom-ADCSMenuButton:hover {
+    background-color: #006F7A;
+}
+

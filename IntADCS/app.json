@@ -1,31 +1,31 @@
 {
-  "id": "a13e6b49-64c0-4b70-aa0c-d4ddf8c6eab2",
+  "id": "cddaa65d-685d-4d32-9f94-36b060f7afeb",
   "name": "IntADCS",
   "publisher": "IT.integro sp. z o.o.",
-  "version": "1.0.0.0",
-  "brief": "",
-  "description": "",
-  "privacyStatement": "",
-  "EULA": "",
-  "help": "",
-  "url": "",
+  "version": "0.1.0.0",
+  "brief": "The Automated Data Capture System (ADCS) solution provides a way for Business Cental to communicate with handheld devices.",
+  "description": "The Automated Data Capture System (ADCS) solution provides a way for Business Cental to communicate with handheld devices through special Page using javascript controls. The solution replaces the old NAV ADCS technology that used telnet and webservices.",
+  "privacyStatement": "https://www.dynamics365bc.pl/en/business-applications/privacy-policy-terms",
+  "EULA": "https://www.dynamics365bc.pl/en/business-applications/license-terms",
+  "help": "https://www.dynamics365bc.pl/aplikacje-biznesowe/support",
+  "url": "https://www.it.integro.pl",
   "logo": "",
   "dependencies": [],
   "screenshots": [],
-  "platform": "1.0.0.0",
-  "application": "22.0.0.0",
+  "platform": "15.0.0.0",
+  "application": "20.0.0.0",
   "idRanges": [
     {
       "from": 69050,
       "to": 69500
     }
   ],
-  "features": [
-    "NoImplicitWith"
-  ],
   "resourceExposurePolicy": {
     "allowDebugging": true,
     "allowDownloadingSource": false,
     "includeSourceInSymbolFile": false
-  }
+  },
+  "runtime": "11.0",
+  "target": "Cloud",
+  "features": ["TranslationFile","NoImplicitWith"]
 }
